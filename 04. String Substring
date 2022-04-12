@@ -1,0 +1,11 @@
+function solve(word, text) {
+    let wordToLower = word.toLowerCase()
+    let textToLower = text.toLowerCase().split(' ')
+
+    if(textToLower.includes(wordToLower)){
+        console.log(wordToLower)
+    }else{
+        console.log(`${wordToLower} not found!`)  
+    }
+  
+}
