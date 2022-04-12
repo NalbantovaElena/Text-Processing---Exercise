@@ -1,0 +1,7 @@
+function solve(input) {
+    let regEx = /#([A-Za-z]+)/g
+    let item = input.match(regEx)
+    item.forEach(element => {
+        console.log(element.substring(1))
+    });
+}
