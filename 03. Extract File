@@ -1,0 +1,8 @@
+function solve(input) {
+
+    let lastIndex = input.lastIndexOf('\\');
+    let word = input.substring(lastIndex + 1).split('.')
+    let extention = word.pop()
+    console.log(`File name: ${word.join('.')}`)
+    console.log(`File extension: ${extention}`)
+}
