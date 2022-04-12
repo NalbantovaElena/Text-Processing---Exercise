@@ -1,0 +1,10 @@
+function revealWords(searchText, text) {
+   let words = searchText.split(', ');
+   words.forEach(word=>{
+       let asteriks = '*'.repeat(word.length);
+
+       text=text.replace(asteriks,word);
+   })
+  
+  console.log(text);
+}
