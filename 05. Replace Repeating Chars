@@ -1,0 +1,11 @@
+function solve(input) {
+
+    let str = ''
+    for (let value of input) {
+        if (value !== str[str.length - 1]) {
+            str += value
+        }
+
+    }
+    console.log(str)
+}
