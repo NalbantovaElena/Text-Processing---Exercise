@@ -1,0 +1,11 @@
+function solve(input) {
+    let index = input.length / 2
+    //console.log(index)
+    let firstStr = input.substring(0,index)
+    //console.log(firstStr)
+    let secondStr = input.substring(index)
+    //console.log(secondStr)
+    console.log(firstStr.split('').reverse().join(''))
+    console.log(secondStr.split('').reverse().join(''))
+
+}
