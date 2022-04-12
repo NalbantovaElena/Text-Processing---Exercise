@@ -1,0 +1,14 @@
+function solve(input) {
+    let str = ''
+    for (let value of input) {
+        //console.log(value.charCodeAt())
+
+        if (value.charCodeAt() >= 60 && (value.charCodeAt() <= 90)) {
+            str += ` ${value}`
+        } else {
+            str += value
+        }
+    }
+    str = str.trim()
+    console.log(str.split(' ').join(', '))
+}
